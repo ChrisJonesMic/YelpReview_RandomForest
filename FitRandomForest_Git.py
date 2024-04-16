@@ -294,5 +294,5 @@ viz = dtreeviz(t_rf.estimators_[0],
                 histtype='bar', # default 
                 scale=1.2)
 # viz.view()
-viz.save(dataDir + 'test.svg')
+viz.save(dataDir + 'tree_plot.svg')
 
